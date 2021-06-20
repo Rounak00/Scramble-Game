@@ -1,7 +1,8 @@
 const msg = document.querySelector(".msg");
 const guess = document.querySelector("input");
 const btn = document.querySelector(".btn");
-
+const sc =document.querySelector("#score");
+let count=0;
 let play = false;
 let newWords = "";
 let ranWords = "";
@@ -42,10 +43,12 @@ btn.addEventListener("click", function () {
 
     newWords = createNewWord();
     ranWords = scrumbleWord(newWords.split("")).join("");
-
+    
     msg.innerHTML = ranWords;
+    sc.innerHTML = `Your score is ${count}`
   } else {
     let tempWord = guess.value;
+    sc.innerHTML=`Your score is ${++count}`
     if (newWords === tempWord) {
       console.log("correct");
       play = false;

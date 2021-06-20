@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* Header */
 header {
   line-height: 18vh;
   width: 100%;
@@ -18,6 +19,18 @@ header>h1 {
   text-shadow: 0 1px 0#efefef, 0 2px 0 #efefef, 0 3px 0 #efefef, 0 4px 0 #efefef,
     0 30px 5px rgba(0, 0, 0, 01);
 }
+/* main is for Score only*/
+#score{
+    width:100 vw;
+    height: 10%;
+    padding: 20px;
+    background-color:red;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game areas */
 section{
     height: 82vh;
     display: flex;
