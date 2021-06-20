@@ -90,6 +90,9 @@ button.btn:hover, button.btn:focus, button.btn:active{
    } 
 }
 @media screen and (max-width: 599px) and (min-width:330px){
+    h1{
+        letter-spacing: 8px;
+    }
     .game-area{
         width:80%;
     }
@@ -101,7 +104,7 @@ button.btn:hover, button.btn:focus, button.btn:active{
 @media screen and (max-width:331px){
    h1{ 
     font-size: calc(15px + 1vw );
-    letter-spacing: 0px;
+    letter-spacing: 8px;
      }
     .game-area{
         width: 85%;
