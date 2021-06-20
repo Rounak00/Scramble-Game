@@ -8,14 +8,13 @@ let newWords = "";
 let ranWords = "";
 
 let sWords = [
-  "Apple",
-  "Bird",
-  "Spider",
-  "Tiger",
-  "Elephant",
-  "Jaguar",
-  "Lion",
-  "Rabbit",
+  "apple", "ant", "alarm","act","axe",
+  "bird","ball", "bat", "cycle","doctore","owl",
+  "spider","penguine","parrot","deer","duck","cat","goat",
+  "tiger","cow","pig","cricket","hippopotamous","dunkey",
+  "elephant","football","baseball","tennis","carrom","cards",
+  "jaguar","badminton","pineapple","orange","grape","stawberry","melon","sweet","choclate","chips","lolipop","toy","watch","glass","hat","hourse","house","puzzle",
+  "lion", "rabbit",
 ];
 
 const createNewWord = () => {
@@ -48,11 +47,12 @@ btn.addEventListener("click", function () {
     sc.innerHTML = `Your score is ${count}`
   } else {
     let tempWord = guess.value;
-    sc.innerHTML=`Your score is ${++count}`
+    
     if (newWords === tempWord) {
       console.log("correct");
       play = false;
       msg.innerHTML = `Awesome it's currect. it is ${newWords}`;
+      sc.innerHTML=`Your score is ${++count}`
       btn.innerHTML = "Start Again";
       guess.classList.toggle("hidden");
       guess.value = "";
