@@ -101,6 +101,7 @@ button.btn:hover, button.btn:focus, button.btn:active{
 @media screen and (max-width:331px){
    h1{ 
     font-size: calc(15px + 1vw );
+    letter-spacing: 0px;
      }
     .game-area{
         width: 85%;
