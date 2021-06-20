@@ -60,3 +60,17 @@ btn.addEventListener("click", function () {
     }
   }
 });
+
+
+// CALCULATION OF SCRUMBLE WORD FUNCTION
+
+// arr= 'a','n','t'; thats mean a=0,n=1,t=2;
+// { 
+// for(length-1 to brfore 0){
+//   temp = arr[i]; first time 2(t)
+//   j= math floor and random * i+1; that mean it generate a number between 2-3.
+//   arr[i](t)=arr[j](assume j =1 thats mean n);
+//   arr[2]= 'n' and in other hand .
+//   arr[j](n)=temp; temp= 't'.
+// }
+//  return arr;}

@@ -11,7 +11,7 @@ header {
 header>h1 {
   text-align: center;
   color: white;
-  font-size: 1.8rem;
+  font-size: calc(10px + 3vw );
   letter-spacing: 15px;
   font-family: 'Carter One', cursive;
   text-transform: uppercase;
@@ -79,4 +79,33 @@ button.btn:hover, button.btn:focus, button.btn:active{
 }
 .hidden{
     display: none;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+   .game-area{
+       width:60%;
+   }
+    input{
+    width: 58%;
+   } 
+}
+@media screen and (max-width: 599px) and (min-width:330px){
+    .game-area{
+        width:80%;
+    }
+    input{
+        width:80%;
+    }
+
+}
+@media screen and (max-width:331px){
+   h1{ 
+    font-size: calc(15px + 1vw );
+     }
+    .game-area{
+        width: 85%;
+    }
+    input{
+        width: 80%;
+    }
 }
