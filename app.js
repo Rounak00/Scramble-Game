@@ -11,7 +11,7 @@ let sWords = [
   "apple", "alarm","crow","dolphin","cartoon","milk",
   "bird","ball", "cycle","doctore","salt","tortoise","lipard",
   "spider","penguin","parrot","deer","duck","goat","army","soldier", "player","snake",
-  "tiger","cow","pig","cricket","hippopotamous","dunkey",
+  "tiger","cricket","hippopotamous","donkey",
   "elephant","football","baseball","tennis","carrom","cards",
   "jaguar","badminton","pineapple","orange","grape","stawberry","melon","sweet","choclate","chips","lolipop","watch","glass","hourse","house","puzzle",
   "lion", "rabbit", "pizza","burger", "fish", "octopus", "water","snow","chicken","zebra","sugar","noddles","icecream","carrot","lemon","ship","sheep","cloud","rain","thunder"
