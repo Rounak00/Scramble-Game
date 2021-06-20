@@ -8,9 +8,9 @@ let newWords = "";
 let ranWords = "";
 
 let sWords = [
-  "apple", "alarm",
-  "bird","ball",  "cycle","doctore",
-  "spider","penguine","parrot","deer","duck","goat",
+  "apple", "alarm","crow","dolphin","cartoon","milk",
+  "bird","ball", "cycle","doctore","salt","tortoise","lipard",
+  "spider","penguin","parrot","deer","duck","goat","army","soldier", "player","snake",
   "tiger","cow","pig","cricket","hippopotamous","dunkey",
   "elephant","football","baseball","tennis","carrom","cards",
   "jaguar","badminton","pineapple","orange","grape","stawberry","melon","sweet","choclate","chips","lolipop","watch","glass","hourse","house","puzzle",
