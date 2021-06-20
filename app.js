@@ -8,13 +8,13 @@ let newWords = "";
 let ranWords = "";
 
 let sWords = [
-  "apple", "ant", "alarm","act","axe",
-  "bird","ball", "bat", "cycle","doctore","owl",
-  "spider","penguine","parrot","deer","duck","cat","goat",
+  "apple", "alarm",
+  "bird","ball",  "cycle","doctore",
+  "spider","penguine","parrot","deer","duck","goat",
   "tiger","cow","pig","cricket","hippopotamous","dunkey",
   "elephant","football","baseball","tennis","carrom","cards",
-  "jaguar","badminton","pineapple","orange","grape","stawberry","melon","sweet","choclate","chips","lolipop","toy","watch","glass","hat","hourse","house","puzzle",
-  "lion", "rabbit",
+  "jaguar","badminton","pineapple","orange","grape","stawberry","melon","sweet","choclate","chips","lolipop","watch","glass","hourse","house","puzzle",
+  "lion", "rabbit", "pizza","burger", "fish", "octopus", "water","snow","chicken","zebra","sugar","noddles","icecream","carrot","lemon","ship","sheep","cloud","rain","thunder"
 ];
 
 const createNewWord = () => {
